@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1,
+    "title": "Tren no obre portes",
+    "description": "Possible deslocalitzció ATO",
+    "questions": [{
+      "0": "Obrir porta en ATP",
+      "1": "Obrir porta en M+25",
+      "2": "Obrir porta en M+25 i anul·lant D.O.",
+      "3": "En cas de tenir govern en testera contraria, retirar el tren des d'aquesta testera.",
+      "4": "Tornar a realitzar reset de bateríes des d'aquesta testera.",
+      "5": "Demanar una remolcada per a procedir a la seva retirada"
+    }]
+  },
+  {
+    "id": 2,
+    "title": "Tren no tanca portes",
+    "description": "Obrir retovisors, sel·leccionar mode de conducció, habilitar costat portes i verficar amb el display",
+    "questions": [{
+      "0": "En cas de tenir govern actiu, realitzar un reset de portes i procedir a tancar-les.",
+      "1": "Realitzar un reset de bateríes.",
+      "2": "Anul·lar llaç de portes i desallotjar el tren per a la seva retirada.",
+      "3": "En cas de tenir govern en testera contraria, retirar el tren des d'aquesta testera.",
+      "4": "Tornar a realitzar reset de bateríes des d'aquesta testera.",
+      "5": "Demanar una remolcada per a procedir a la seva retirada."
+    }]
+  },
+  {
+    "id": 3,
+    "title": "Sense permís de sortida",
+    "description": "Led de permís de sortida parpadeja",
+    "questions": [{
+      "0": "Realitzar cicle de obertura i tancament de portes, i comprovar que totes les portes estiguin tancades (Tren + Andana)",
+      "1": "En cas d'estar enclavades, falla el llaç de TPA o bé del tren.",
+      "2": "Generar el permís de sortida des del PAM.",
+      "3": "En cas de no generar-se el permís de sortida ens indica que falla IL o bé les TPAs.",
+      "4": "Demanar autorització a CCM per iniciar la marxa en M+25 fins a obtenir codis ATP.",
+      "5": "Anul·lar TPAs/SDO i realitzar la sortida en ATP."
+    }]
+  },
+  {
+    "id": 4,
+    "title": "No afluixa fre d'estacionament",
+    "description": "Iluminació de la llum de fré d'estacionament quan esta aplicat en algún cotxe.",
+    "questions": [{
+      "0": "En cas de dispossar d'aire al circuit:\n\n Tancar la electrovàlvula B19 corresponent.\nSi el SAC continúa iluminat:\n\nAnul·lar llaç de portes i desallotjar per a retirar.",
+      "1": "En cas de no dispossar d'aire al circuit:\n\nTancar la vàlvula B17 corresponent, anul·lar llaç de portes i desallotjar per a retirar."
+    }]
+  },
+  {
+    "id": 5,
+    "title": "Sense codis",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 6,
+    "title": "Codi Cero '0'",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "title": "No desfrena",
+    "description": "Mini descripcion 2"
+  },
+  {
+    "id": 8,
+    "title": "No tracciona",
+    "description": "Mini descripcion 3"
+  },
+  {
+    "id": 9,
+    "title": "TDP colors agulles",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id": 10,
+    "title": "No anuncía estacio ni termòmetre",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 11,
+    "title": "Fuites d'aire",
+    "description": "Sense alarmes de tèrmics"
+  },
+  {
+    "id": 12,
+    "title": "Tèrmics",
+    "description": "Mini descripcion 2"
+  },
+  {
+    "id": 13,
+    "title": "SAC 24 'llaç d'emergència",
+    "description": "Mini descripcion 3"
+  },
+  {
+    "id": 14,
+    "title": "Tren no supera 20 km/h",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id": 15,
+    "title": "Acoblament trens",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 16,
+    "title": "Impossibilitat desconnexió bateríes",
+    "description": "Sense alarmes de tèrmics"
+  },
+  {
+    "id": 17,
+    "title": "Incidència radiotelèfon",
+    "description": "Mini descripcion 2"
+  },
+  {
+    "id": 18,
+    "title": "Antidrag",
+    "description": "Mini descripcion 3"
+  },
+  {
+    "id": 19,
+    "title": "SDA",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id": 20,
+    "title": "Pilots Caixa Passatge",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 21,
+    "title": "Tren no obre portes",
+    "description": "Sense alarmes de tèrmics"
+  },
+  {
+    "id": 22,
+    "title": "Incidencia 2",
+    "description": "Mini descripcion 2"
+  },
+  {
+    "id": 23,
+    "title": "Incidencia 3",
+    "description": "Mini descripcion 3"
+  },
+  {
+    "id": 24,
+    "title": "Incidencia 4",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id": 25,
+    "title": "Incidencia 5",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 26,
+    "title": "Tren no obre portes",
+    "description": "Sense alarmes de tèrmics"
+  },
+  {
+    "id": 27,
+    "title": "Incidencia 2",
+    "description": "Mini descripcion 2"
+  },
+  {
+    "id": 28,
+    "title": "Incidencia 3",
+    "description": "Mini descripcion 3"
+  },
+  {
+    "id": 29,
+    "title": "Incidencia 4",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id": 30,
+    "title": "Incidencia 5",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 31,
+    "title": "Tren no obre portes",
+    "description": "Sense alarmes de tèrmics"
+  },
+  {
+    "id": 32,
+    "title": "Incidencia 2",
+    "description": "Mini descripcion 2"
+  },
+  {
+    "id": 33,
+    "title": "Incidencia 3",
+    "description": "Mini descripcion 3"
+  },
+  {
+    "id": 34,
+    "title": "Incidencia 4",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id":35,
+    "title": "Incidencia 5",
+    "description": "Mini descripcion 5"
+  },
+  {
+    "id": 36,
+    "title": "Incidencia 4",
+    "description": "Mini descripcion 4"
+  },
+  {
+    "id": 37,
+    "title": "Incidencia 5",
+    "description": "Mini descripcion 5"
+  }
+]

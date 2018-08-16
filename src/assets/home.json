@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "TPAs",
+    "description": "https://image.flaticon.com/icons/svg/59/59813.svg"
+  },
+  {
+    "id": 2,
+    "title": "M. Mòbil",
+    "description": "https://static.thenounproject.com/png/7557-200.png"
+  },
+  {
+    "id": 3,
+    "title": "TRV",
+    "description": "https://cdn4.iconfinder.com/data/icons/dot/256/elevator.png"
+  },
+  {
+    "id": 4,
+    "title": "SViV",
+    "description": "https://image.flaticon.com/icons/png/512/177/177887.png"
+  },
+  {
+    "id": 5,
+    "title": "Consignes",
+    "description": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Exclamation_encircled.svg/1024px-Exclamation_encircled.svg.png"
+  },
+  {
+    "id": 6,
+    "title": "Ventiladors",
+    "description": "https://image.flaticon.com/icons/png/512/39/39930.png"
+  },
+  {
+    "id": 7,
+    "title": "Agulles",
+    "description": "https://png.icons8.com/ios/1600/switch-tracks.png"
+  },
+  {
+    "id": 8,
+    "title": "Sondes",
+    "page": "TpAsPage",
+    "description": "https://www.shareicon.net/data/512x512/2016/05/01/758469_temperature_512x512.png"
+  },
+  {
+    "id": 9,
+    "title": "Posta Terra",
+    "description": "https://cdn3.iconfinder.com/data/icons/electronic-with-circle/64/ground-512.png"
+  },
+  {
+    "id": 10,
+    "title": "Reglament",
+    "description": "http://cdn.onlinewebfonts.com/svg/img_181934.png"
+  }
+]

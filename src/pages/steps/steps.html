@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+	<ion-card class="cards">
+		<ion-card-header class="card-content">
+			<div class="title">
+				Causa/Procediments:
+			</div>
+		</ion-card-header>
+		<ion-card-content class="card-content">
+			<div class="text">
+				{{desc}}
+			</div>
+		</ion-card-content>
+	</ion-card>
+
+	<ion-card class="cards">
+		<ion-card-header class="card-content">
+			<div class="title">
+				Solució:
+			</div>
+		</ion-card-header>
+		<ion-slides (ionSlideDidChange)="slideChanged()">
+			<ion-card-content class="card-content">
+				<div class="text">
+					{{ans}}
+				</div>
+			</ion-card-content>
+		</ion-slides>
+	</ion-card>
+
+	<ion-card class="cardsBtn">
+		<div class="quiz">
+			T'ha sigut util la solució?
+		</div>
+		<ion-grid>
+		    <ion-row>
+				<ion-col col-4 no-padding>
+					<button class="btn" style="background: chartreuse;" (click)="onClick()">
+						Si
+					</button>
+				</ion-col>
+				<ion-col col-4 no-padding>
+					<button class="btn" style="background: paleturquoise" (click)="onClick('next')">
+						Següent
+					</button>
+				</ion-col>
+				<ion-col col-4 no-padding>
+					<button class="btn" style="background: red" (click)="onClick('no')">
+						No
+					</button>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-card>
+</ion-content>

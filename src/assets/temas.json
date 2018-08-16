@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Home", 
+    "component": "HomePage"
+  },
+  {
+    "title": "TPAs",
+    "component": "TpAsPage"
+  },
+  {
+    "title": "M. Mobil",
+    "component": "MatMobilPage"
+  },
+  { 
+    "title": "TRV",
+    "component": "TrvPage"
+  }
+]

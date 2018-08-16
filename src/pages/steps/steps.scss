@@ -1,0 +1,59 @@
+page-steps {
+	.card-content {
+		height: 100%;
+		margin-bottom: 5px;
+		text-align: left;
+		font-size: 15px;
+		background-color: color($colors, darkprimary);
+	}
+	.content {
+		background-color: #F5B7B1;
+	}
+	.cards{
+		//height: 20%;
+		border-radius: 10px;
+		background-color: color($colors, darkprimary);
+	}
+	.cardsBtn{
+		height: 20%;
+		border-radius: 10px;
+		background-color: color($colors, darkprimary);
+	}
+	.btn {
+		border-radius: 5%;
+		width: 90%;
+		height: 150%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		color: white;
+		font-size: 120%;
+		//background-color: rgb(173, 173, 173);
+	}
+	.title {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+
+	}
+	.text{
+		color: white;
+		text-align: left;
+		display: block;
+		font-size: 100%;
+	}
+	.quiz {
+		font-size: 20px;
+		white-space: normal;
+		color: white;
+		background-color: color($colors, darkprimary);
+		text-align: left;
+		display: block;
+		margin-left: 5%;
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+}
+/* background-color: #B3E5FC; Azul celeste
+ * background-color: #01579B; Azul marino
+ */

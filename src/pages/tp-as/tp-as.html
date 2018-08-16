@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>TPAs</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="content">
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let item of items" col-6 no-padding>
+        <ion-card class="card" (click)="onClick(item)">
+          <ion-card-header>
+            <div class="title" style="white-space: pre-line;">
+              {{item.title}}
+            </div>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

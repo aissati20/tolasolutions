@@ -1,0 +1,31 @@
+page-home {
+	.card-content {
+		height: 80px;
+		margin-bottom: 5px;
+	}
+	.content {
+		background-color: color($colors, darkprimary);
+	}
+	.card {
+		padding: 0 !important;
+		background-color: #F5B7B1;
+		text-align: center;
+		height: 90%;
+		margin-bottom: 5px;
+		border-radius: 10px;
+	}
+	.title {
+		font-size: 20px;
+		font-weight: bold;
+		color: black;
+	}
+	.img {
+		height: 100% !important;
+		width: auto !important;
+		margin: auto;
+		display: block;
+	}
+}
+/* background-color: #B3E5FC; Azul celeste
+ * background-color: #01579B; Azul marino
+ */
